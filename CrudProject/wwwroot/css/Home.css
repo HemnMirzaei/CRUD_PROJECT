@@ -1,0 +1,87 @@
+﻿.myform{
+    margin-top:1%;
+}
+
+.btn{
+    width:90%;
+    margin:5%;
+    font-size:40px;
+    font-family:Cambria;
+}
+
+.text{
+    font-size:30px;
+    font-family:Cambria;
+
+}
+
+
+.mainHeader{
+    font-size:50px;
+    font-family:Cambria;
+    font-weight:bold;
+}
+
+.valid{
+    margin-left:2%;
+    font-family:Cambria;
+    font-size:20px;
+}
+
+
+
+table thead tr th{
+    font-size:30px;
+    font-family:Cambria;
+    font-weight:bold;
+}
+
+table tbody tr td {
+    font-size: 25px;
+    font-family: Cambria;
+}
+
+.btns{
+    font-size:20px;
+    font-family:Cambria;
+    padding:10px;
+    text-decoration:none;
+}
+.del {
+    background: rgb(217, 83, 79);
+    color: white;
+}
+    .del:hover {
+        background: white;
+        color: rgb(217, 83, 79);
+    }
+
+
+.det {
+    background: rgb(2, 117, 216);
+    color:white;
+}
+
+    .det:hover {
+        background: white;
+        color: rgb(2, 117, 216);
+    }
+
+.upd {
+    background: rgb(92, 184, 92);
+    color:white;
+}
+
+    .upd:hover {
+        color: rgb(92, 184, 92);
+        Background:white;
+    }
+
+
+.TopHeader {
+    font-size: 50px;
+    font-family: Cambria;
+    background-color: rgb(2, 117, 216);
+    color:white;
+    
+}

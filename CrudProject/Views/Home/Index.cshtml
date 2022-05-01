@@ -1,0 +1,52 @@
+﻿@model IEnumerable<CrudProject.DataAccessLayer.Entites.Customer>
+
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel = "stylesheet" href = "~/css/Home.css" />
+
+
+<div class = "col-lg-4">
+    <a asp-controller = "Home" asp-action = "Create" class = "btn btn-primary TopHeader">
+        New Customer
+    </a>
+    <br />
+    <br />
+</div>
+
+<table class = "table">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var i in Model)
+        {
+            <tr>
+                <td>@i.FirstName</td>
+                <td>@i.LastName</td>
+                <td>@i.Email</td>
+                <td>@i.PhoneNumber</td>
+                <td class = "btns">
+                   @Html.ActionLink("Details","Details","Home",new {id = @i.ID},new {@class = "btns det"})
+                   @Html.ActionLink("Edit","Edit","Home",new {id = @i.ID},new {@class = "btns upd"})
+                   @Html.ActionLink("Delete","Delete","Home",new {id = @i.ID},new {@class = "btns del"})
+                   
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+

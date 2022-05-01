@@ -1,0 +1,14 @@
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\bin\Debug\net6.0\CrudProject.DataAccessLayer.deps.json
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\bin\Debug\net6.0\CrudProject.DataAccessLayer.runtimeconfig.json
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\bin\Debug\net6.0\CrudProject.DataAccessLayer.dll
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\bin\Debug\net6.0\CrudProject.DataAccessLayer.pdb
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.csproj.AssemblyReference.cache
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.AssemblyInfoInputs.cache
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.AssemblyInfo.cs
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.dll
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\refint\CrudProject.DataAccessLayer.dll
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.pdb
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\CrudProject.DataAccessLayer.genruntimeconfig.cache
+D:\programing\C#\CrudProject\CrudPrject.DataAccessLayer\obj\Debug\net6.0\ref\CrudProject.DataAccessLayer.dll

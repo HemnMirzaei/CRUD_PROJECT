@@ -1,0 +1,56 @@
+﻿@model CrudProject.DataAccessLayer.Entites.Customer
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class = "col-lg-4">
+    <a asp-controller = "Home" asp-action = "Index" class = "btn btn-primary TopHeader">
+        Go Back
+    </a>
+    <br />
+    <br />
+</div>
+
+<form asp-action="Delete">
+            <table class = "table">
+    <thead>
+        <tr>
+            <th>Properties</th>
+            <th>Values</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>First Name</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Birthday</td>
+            <td>@Model.DateOfBirth</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>@Model.PhoneNumber</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Bank Account Number</td>
+            <td>@Model.BankAccountNumber</td>
+        </tr>
+    </tbody>
+</table>
+            <div class="form-group">
+                <input type="submit" value="Delete" class="btn btn-danger" />
+            </div>
+        </form>
+

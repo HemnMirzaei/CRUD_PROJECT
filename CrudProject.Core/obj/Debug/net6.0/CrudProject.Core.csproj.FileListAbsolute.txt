@@ -1,0 +1,17 @@
+D:\programing\C#\CrudProject\CrudProject.Core\bin\Debug\net6.0\CrudProject.Core.deps.json
+D:\programing\C#\CrudProject\CrudProject.Core\bin\Debug\net6.0\CrudProject.Core.runtimeconfig.json
+D:\programing\C#\CrudProject\CrudProject.Core\bin\Debug\net6.0\CrudProject.Core.dll
+D:\programing\C#\CrudProject\CrudProject.Core\bin\Debug\net6.0\CrudProject.Core.pdb
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.csproj.AssemblyReference.cache
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.AssemblyInfoInputs.cache
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.AssemblyInfo.cs
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.csproj.CoreCompileInputs.cache
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.dll
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\refint\CrudProject.Core.dll
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.pdb
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.genruntimeconfig.cache
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\ref\CrudProject.Core.dll
+D:\programing\C#\CrudProject\CrudProject.Core\bin\Debug\net6.0\CrudProject.DataAccessLayer.dll
+D:\programing\C#\CrudProject\CrudProject.Core\bin\Debug\net6.0\CrudProject.DataAccessLayer.pdb
+D:\programing\C#\CrudProject\CrudProject.Core\obj\Debug\net6.0\CrudProject.Core.csproj.CopyComplete

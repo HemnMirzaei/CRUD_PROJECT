@@ -1,0 +1,51 @@
+﻿@model CrudProject.DataAccessLayer.Entites.Customer
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link rel = "stylesheet" href = "~/css/Home.css" />
+
+<div class = "col-lg-4">
+    <a asp-controller = "Home" asp-action = "Index" class = "btn btn-success TopHeader">
+        Go Back
+    </a>
+</div>
+
+
+
+<table class = "table">
+    <thead>
+        <tr>
+            <th>Properties</th>
+            <th>Values</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>First Name</td>
+            <td>@Model.FirstName</td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td>@Model.LastName</td>
+        </tr>
+        <tr>
+            <td>Birthday</td>
+            <td>@Model.DateOfBirth</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>@Model.PhoneNumber</td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>@Model.Email</td>
+        </tr>
+        <tr>
+            <td>Bank Account Number</td>
+            <td>@Model.BankAccountNumber</td>
+        </tr>
+    </tbody>
+</table>

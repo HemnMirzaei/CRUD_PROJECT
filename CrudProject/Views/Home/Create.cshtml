@@ -1,0 +1,41 @@
+﻿@model CrudProject.Core.ViewModels.CustomerViewModel
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<p class = "mainHeader"> New Customer </p>
+<hr />
+<form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="FirstName" class="form-control text" placeholder = "First Name" />
+                <span asp-validation-for="FirstName" class="text-danger valid"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="LastName" class="form-control text" placeholder = "Last Name" />
+                <span asp-validation-for="LastName" class="text-danger valid"></span>
+            </div>
+            <div class="form-group">
+                <input type = "date" asp-for="DateOfBirth" class="form-control text" placeholder = "Birthday"/>
+                <span asp-validation-for="DateOfBirth" class="text-danger valid"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="PhoneNumber" class="form-control text" placeholder = "Phone Number" />
+                <span asp-validation-for="PhoneNumber" class="text-danger valid"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Email" class="form-control text" placeholder = "Email"/>
+                <span asp-validation-for="Email" class="text-danger valid"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="BankAccountNumber" class="form-control text" placeholder = "Bank Account Number" />
+                <span asp-validation-for="BankAccountNumber" class="text-danger valid"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Add" class="btn btn-primary btn" />
+            </div>
+        </form>
+
